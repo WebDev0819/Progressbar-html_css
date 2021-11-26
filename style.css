@@ -180,3 +180,31 @@ body{
   .progressState{
     transition: all .25s;
   }
+  .btn-class{
+    display: flex;
+    justify-content: center;
+  }
+  .btn-class > button{
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #003D59;
+    border-radius: 10px;
+    margin: 25px 0 22px 0;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid #FFDB4D;
+    height: 50px;
+    background-image: linear-gradient(50deg, #FFDB4D 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .btn-class > button:hover {
+    background-position: 100%;
+    color: white;
+  }
